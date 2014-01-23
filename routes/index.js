@@ -4,7 +4,7 @@
  */
 
 exports.home = function(req, res){
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Amusing Wrestlers' });
 };
 
 var jf = require('jsonfile');

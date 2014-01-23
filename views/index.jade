@@ -2,12 +2,13 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p Enter a wrestler's name here. 
 
- 
+  #container
   form(method="post" action="submissions")
+    label Name:
     input(type= "text", name="Username") 
-
+    br
     input(type= "submit", value="Enter")
 
 
